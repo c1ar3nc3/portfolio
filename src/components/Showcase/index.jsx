@@ -1,9 +1,10 @@
-import React from 'react'
+import Button from './Button'
+import './index.scss'
 
 export default function index() {
   return (
     <div>
-      
+      <Button />
     </div>
   )
 }

@@ -1,9 +1,12 @@
 import './App.scss';
+import Navbar from "./Navbar"
+import Showcase from "./Showcase"
 
 function App() {
   return (
     <div>
-      <p>The Beginning</p>
+      <Navbar />
+      <Showcase />
     </div>
   );
 }
