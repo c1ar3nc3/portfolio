@@ -1,0 +1,16 @@
+.bio {
+  padding: 1em;
+  height: 80vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.bio-left {
+  width: 30vw;
+  border: 2px solid black;
+}
+
+.bio-right {
+  width: 70vw;
+  padding: 0 2em;
+}

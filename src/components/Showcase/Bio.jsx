@@ -3,8 +3,16 @@ import './Bio.scss'
 
 export default function Bio() {
   return (
-    <div>
-      
+    <div className="bio">
+      <div className="bio-left">
+        <img src="" alt="Candice George"/>
+      </div>
+      <div className="bio-right">
+        <h4>Pronouns: She, Her and Hers</h4>
+        <p>
+        Candice is Dakelh from the Northern Interior of British Columbia. Her U'loo (mother) Yvonne George is Stellat'en and U'ba (father) Wilfred George is Wet'su'wet'en. She is Kilweneetz'en, her matrilineal family lineage is Dene Yaz (Little man) a sub-house crest within the Luksilyu (Caribou) clan . All of her late grand-parents inspire her to continue their legacy; to pass on the customs and values of Uda Dene (Ancestors of Long Ago).
+        </p>
+      </div>
     </div>
   )
 }
