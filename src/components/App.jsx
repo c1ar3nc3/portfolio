@@ -5,8 +5,12 @@ import Showcase from "./Showcase"
 function App() {
   return (
     <div>
-      <Navbar />
-      <Showcase />
+      <div>
+        <Navbar />
+      </div>
+      <div>
+        <Showcase />
+      </div>
     </div>
   );
 }

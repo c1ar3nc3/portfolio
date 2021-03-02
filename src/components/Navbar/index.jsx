@@ -6,7 +6,8 @@ export default function Navbar() {
       <div className="title">
         <h3>Skeh Nek'huna Hohdidul'eh</h3>
       </div>
-      <div className="navigation">
+      <div>
+        <p>"Teaching Children Our Ways"</p>
       </div>
     </div>
   )
