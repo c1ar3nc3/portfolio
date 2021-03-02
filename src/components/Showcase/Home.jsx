@@ -3,8 +3,8 @@ import './Home.scss'
 
 export default function Home() {
   return (
-    <div>
-      
+    <div className="landing-page">
+      Home Page
     </div>
   )
 }

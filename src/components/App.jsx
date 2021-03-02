@@ -4,14 +4,14 @@ import Showcase from "./Showcase"
 
 function App() {
   return (
-    <div>
-      <div>
+    <main>
+      <header>
         <Navbar />
-      </div>
-      <div>
+      </header>
+      <section>
         <Showcase />
-      </div>
-    </div>
+      </section>
+    </main>
   );
 }
 
