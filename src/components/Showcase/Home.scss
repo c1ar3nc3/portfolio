@@ -1,4 +1,18 @@
 .landing-page {
   height: 80vh;
   padding: 1em;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
+
+.home-title {
+  height: 10vh;
+  text-align: right;
+  padding-right: 2em;
+}
+
+.home-image {
+  height: 70vh;
+  border: 1px solid black;
 }
