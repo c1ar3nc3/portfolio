@@ -1,11 +1,12 @@
 import React from 'react'
 import './Bio.scss'
+import candice1 from '/Users/c1ar3nc3/Projects/portfolio/src/docs/candice1.jpg'
 
 export default function Bio() {
   return (
     <div className="bio">
       <div className="bio-left">
-        <img src="" alt="Candice George"/>
+        <img src={candice1} alt="Candice George"/>
       </div>
       <div className="bio-right">
         <h4>Pronouns: She, Her and Hers</h4>

@@ -6,8 +6,12 @@
 }
 
 .bio-left {
-  width: 30vw;
-  border: 2px solid black;
+  width: 40vw;
+  img {
+    padding: 1em 0;
+    max-height: 70vh; 
+    max-width: 5  0vw;
+  }
 }
 
 .bio-right {
