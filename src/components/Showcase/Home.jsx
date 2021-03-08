@@ -12,6 +12,7 @@ export default function Home() {
       </div>
       <div className="home-image">
         <img src={littleman} alt="littleman" />
+        <p>Performing Artist - Traditional Singer - Storyteller - Cultural Facilitator</p>
       </div>
     </div>
   )
