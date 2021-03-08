@@ -2,19 +2,27 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-content: center;
   padding: 0 1em;
+  margin-bottom: 1em;
+  height: 4em;
   h3 {
     position: absolute;
-    left: 5em;
+    left: 6em;
+    padding-top: 1em;
   }
   p {
     position: absolute;
-    right: 5em;
+    right: 4em;
+    padding-top: 1.5em;
   }
 }
 .main-logo{
   width: 3em;
   img {
-    height: 4em;
+    position: relative;
+    top: -7px;
+    left: -7px;
+    height: 7em;
   }
 }
