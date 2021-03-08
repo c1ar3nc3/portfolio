@@ -4,16 +4,17 @@ import Bio from './Bio'
 import Photos from './Photos'
 import './index.scss'
 import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom'
+import { FaAddressCard, FaCamera, FaHome, FaPhone } from 'react-icons/fa'
 
 export default function index() {
   return (
     <div className="main-section">
       <Router>
         <div className="main-links">
-          <Link to="/">Home</Link>
-          <Link to="/Bio">Bio</Link>
-          <Link to="/Photos">Photos</Link>
-          <Link to="/Contact">Contact</Link>
+          <Link to="/"><FaHome/></Link>
+          <Link to="/Bio"><FaAddressCard /></Link>
+          <Link to="/Photos"><FaCamera /></Link>
+          <Link to="/Contact">< FaPhone /></Link>
         </div>
         <Switch>
           <Route exact path="/Contact"
