@@ -14,5 +14,10 @@
 
 .home-image {
   height: 70vh;
-  border: 1px solid black;
+  img {
+    max-width: 40vw;
+    overflow: hidden;
+    opacity: 40%;
+    mix-blend-mode: multiply;
+  }
 }

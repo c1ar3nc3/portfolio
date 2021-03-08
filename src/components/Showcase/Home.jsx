@@ -1,5 +1,6 @@
 import React from 'react'
 import './Home.scss'
+import littleman from '/Users/c1ar3nc3/Projects/portfolio/src/docs/littleman.jpg'
 
 
 export default function Home() {
@@ -10,7 +11,7 @@ export default function Home() {
         <h1>Candice George</h1>
       </div>
       <div className="home-image">
-        <img src="" alt="Candice George" />
+        <img src={littleman} alt="littleman" />
       </div>
     </div>
   )
