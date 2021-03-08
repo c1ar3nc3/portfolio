@@ -3,4 +3,18 @@
   flex-direction: row;
   justify-content: space-between;
   padding: 0 1em;
+  h3 {
+    position: absolute;
+    left: 5em;
+  }
+  p {
+    position: absolute;
+    right: 5em;
+  }
+}
+.main-logo{
+  width: 3em;
+  img {
+    height: 4em;
+  }
 }
