@@ -13,7 +13,7 @@ export default function Contact() {
           <h3>Touring Artist</h3>
         </div>
         <div className="art-starts">
-          <h3>ArtStarts</h3>
+          <h3>Artist in the Classroom</h3>
         </div>
       </div>
       <div className="contact-footer">

@@ -1,14 +1,18 @@
 .contact-page {
-  padding: 1em;
+  padding: 2em;
   height: 80vh;
   display: flex;
   flex-direction: column;
 }
+h3 {
+  font-size: x-large;
+}
 
 .contact-title {
+  font-size: x-large;
   height: 10vh;
   text-align: right;
-  padding-right: 5em;
+  padding-right: 3em;
 }
 .contact-body {
   display: flex;
@@ -34,6 +38,5 @@
   flex-direction: row;
   justify-content: space-evenly;
   padding: 0 3em;
-  font-size: 2em;
-  color: darkred;
+  font-size: 4em;
 }

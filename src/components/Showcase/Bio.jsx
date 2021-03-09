@@ -6,7 +6,7 @@ export default function Bio() {
   return (
     <div className="bio">
       <div className="bio-title">
-        <h1>Bio</h1>
+        <h1>About the Artist</h1>
       </div>
       <div className="bio-main">
       <div className="bio-left">

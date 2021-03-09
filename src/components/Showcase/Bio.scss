@@ -1,14 +1,15 @@
 .bio {
-  padding: 1em;
+  padding: 2em;
   height: 80vh;
   display: flex;
   flex-direction: column;
 }
 
 .bio-title {
+  font-size: x-large;
   height: 10vh;
   text-align: right;
-  padding-right: 5em;
+  padding-right: 3em;
 }
 
 .bio-main {
@@ -34,10 +35,12 @@
     font-style: italic;
     text-align: end;
     padding-right: 1em;
-    font-size: larger;
+    padding-top: 2em;
+    font-size: x-large;
+    margin-bottom: 4em;
   }
   p {
-    font-size: x-large;
+    font-size: xx-large;
     text-align: center;
   }
 }
