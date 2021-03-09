@@ -13,7 +13,7 @@
 }
 
 .home-image {
-  height: 70vh;
+  height: 80vh;
   display: flex;
   flex-direction: row;
   img {
@@ -23,9 +23,11 @@
     mix-blend-mode: multiply;
   }
   p {
+    font-size: x-large;
+    font-style: italic;
     position: absolute;
     bottom: 2em;
-    right: 2em;
+    right: 3em;
     text-align: end;
     align-items: flex-end;
   }

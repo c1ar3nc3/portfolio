@@ -17,15 +17,27 @@
 }
 
 .bio-left {
+  display: flex;
+  justify-content: center;
   width: 40vw;
   img {
     padding: 1em 0;
     max-height: 70vh; 
-    max-width: 5  0vw;
+    max-width: 50vw;
   }
 }
 
 .bio-right {
   width: 70vw;
   padding: 0 2em;
+  h4 {
+    font-style: italic;
+    text-align: end;
+    padding-right: 1em;
+    font-size: larger;
+  }
+  p {
+    font-size: x-large;
+    text-align: center;
+  }
 }
